@@ -1,0 +1,21 @@
+* text=auto eol=lf
+
+*.svg text
+*.tsx text
+*.ts text
+*.js text
+*.mjs text
+*.json text
+*.yml text
+*.yaml text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+
+*.svg linguist-language=SVG
+*.tsx linguist-language=TypeScript JSX
+*.ts linguist-language=TypeScript
