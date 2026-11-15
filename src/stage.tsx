@@ -2,6 +2,7 @@ import { useState } from "react";
 import ExcitedCat from "./cat.svg";
 import InvisibleHitbox from "./hitbox.svg";
 import Hitbox from "./hitbox.tsx";
+import HIDESHOW from "./HIDESHOW";
 
 export default function Stage() {
   const [catClicked, setCatClicked] = useState(false);
@@ -15,7 +16,9 @@ export default function Stage() {
         height: 360
       }}
     >
-      <ExcitedCat />
+      <HIDESHOW>
+        <ExcitedCat />
+      </HIDESHOW>
 
       <div
         onClick={() => setCatClicked(true)}
