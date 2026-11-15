@@ -1,0 +1,7 @@
+{
+  "startLabel": "▶️",
+  "stopLabel": "⏹️",
+  "startColor": "#2ecc71",
+  "stopColor": "#e74c3c",
+  "stopEverything": true
+}
