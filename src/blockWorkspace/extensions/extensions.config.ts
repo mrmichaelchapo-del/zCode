@@ -1,6 +1,9 @@
 // extensions.config.ts
+import TextToSayPlugin from "./TextToSayPlugin.tsx";
+import MinifyProject from "./MinifyProject.tsx";
+
 export default {
-  plugin: "TextToSayPlugin",
-  icon: "🔊",
-  enabled: true,
+  TextToSayPlugin,
+  MinifyProject,
+  defaultVisible: false,
 } as const;
