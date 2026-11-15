@@ -32,8 +32,8 @@ Zcode is actively being worked on. More information about setting up and contrib
 📅 Roadmap
 
 - [x] Initial project setup
-- [ ] Establish core functionality
-- [ ] Develop the main features
+- [x] Establish core functionality
+- [x] Develop the main features
 - [ ] Testing and improvements
 - [ ] First stable release
 
