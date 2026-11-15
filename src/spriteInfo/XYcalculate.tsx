@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Component() {
+export default function XY() {
   const [x, setX] = useState("");
   const [y, setY] = useState("");
 
