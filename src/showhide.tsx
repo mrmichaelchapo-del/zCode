@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Config from "showhide.config.ts";
+import HIDESHOW from "HIDESHOW.tsx";
 
 interface ShowHideProps {
   children?: React.ReactNode;
