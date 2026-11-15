@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ExcitedCat from "./cat.svg";
 import InvisibleHitbox from "./hitbox.svg";
+import Hitbox from "./hitbox.tsx";
 
 export default function Stage() {
   const [catClicked, setCatClicked] = useState(false);
