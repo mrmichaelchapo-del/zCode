@@ -1,4 +1,5 @@
 import { useState } from "react";
+import XYhandler from "./xyhandler.tsx";
 
 export default function XY() {
   const [x, setX] = useState("");
