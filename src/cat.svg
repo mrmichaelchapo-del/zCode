@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f0e6d3" rx="20"/>
+
+  <!-- Shadow under cat -->
+  <ellipse cx="200" cy="370" rx="120" ry="15" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Tail -->
+  <path d="M290 280 Q340 270 350 230 Q360 190 340 170 Q325 155 315 170 Q305 185 320 200 Q330 215 320 240 Q310 265 290 270"
+        fill="none" stroke="#f4a460" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="310" rx="90" ry="65" fill="#f4a460"/>
+  <ellipse cx="200" cy="310" rx="90" ry="65" fill="url(#bodyGrad)"/>
+
+  <!-- Belly -->
+  <ellipse cx="200" cy="325" rx="55" ry="45" fill="#ffe4b5"/>
+
+  <!-- Front paws -->
+  <ellipse cx="155" cy="360" rx="22" ry="12" fill="#f4a460"/>
+  <ellipse cx="245" cy="360" rx="22" ry="12" fill="#f4a460"/>
+  <ellipse cx="155" cy="360" rx="14" ry="7" fill="#ffe4b5"/>
+  <ellipse cx="245" cy="360" rx="14" ry="7" fill="#ffe4b5"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="210" rx="75" ry="65" fill="#f4a460"/>
+  <ellipse cx="200" cy="215" rx="75" ry="60" fill="url(#headGrad)"/>
+
+  <!-- Left ear -->
+  <polygon points="135,160 120,100 165,145" fill="#f4a460" stroke="#e8963e" stroke-width="2"/>
+  <polygon points="138,158 128,115 160,148" fill="#ffb6c1"/>
+
+  <!-- Right ear -->
+  <polygon points="265,160 280,100 235,145" fill="#f4a460" stroke="#e8963e" stroke-width="2"/>
+  <polygon points="262,158 272,115 240,148" fill="#ffb6c1"/>
+
+  <!-- Face white patch -->
+  <ellipse cx="200" cy="230" rx="40" ry="30" fill="#ffe4b5"/>
+
+  <!-- Eyes -->
+  <ellipse cx="175" cy="205" rx="16" ry="18" fill="white"/>
+  <ellipse cx="178" cy="205" rx="10" ry="13" fill="#4a7c59"/>
+  <ellipse cx="178" cy="205" rx="5" ry="8" fill="#1a1a1a"/>
+  <ellipse cx="181" cy="200" rx="3" ry="3" fill="white"/>
+
+  <ellipse cx="225" cy="205" rx="16" ry="18" fill="white"/>
+  <ellipse cx="222" cy="205" rx="10" ry="13" fill="#4a7c59"/>
+  <ellipse cx="222" cy="205" rx="5" ry="8" fill="#1a1a1a"/>
+  <ellipse cx="219" cy="200" rx="3" ry="3" fill="white"/>
+
+  <!-- Nose -->
+  <path d="M194 228 L200 235 L206 228 Z" fill="#ffb6c1" stroke="#ff9aac" stroke-width="1"/>
+
+  <!-- Mouth -->
+  <path d="M200 235 Q190 245 182 240" fill="none" stroke="#8B6914" stroke-width="2" stroke-linecap="round"/>
+  <path d="M200 235 Q210 245 218 240" fill="none" stroke="#8B6914" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Whiskers left -->
+  <line x1="150" y1="225" x2="95" y2="218" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="150" y1="232" x2="92" y2="232" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="150" y1="239" x2="95" y2="248" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Whiskers right -->
+  <line x1="250" y1="225" x2="305" y2="218" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="250" y1="232" x2="308" y2="232" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="250" y1="239" x2="305" y2="248" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Blush -->
+  <ellipse cx="155" cy="235" rx="12" ry="8" fill="rgba(255,182,193,0.5)"/>
+  <ellipse cx="245" cy="235" rx="12" ry="8" fill="rgba(255,182,193,0.5)"/>
+
+  <!-- Stripes on forehead -->
+  <path d="M190 165 Q200 175 210 165" fill="none" stroke="#e8963e" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M185 172 Q200 182 215 172" fill="none" stroke="#e8963e" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Stripes on body -->
+  <path d="M170 285 Q200 295 230 285" fill="none" stroke="#e8963e" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M165 300 Q200 310 235 300" fill="none" stroke="#e8963e" stroke-width="2.5" stroke-linecap="round"/>
+
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.2)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.05)"/>
+    </radialGradient>
+    <radialGradient id="headGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.05)"/>
+    </radialGradient>
+  </defs>
+</svg>
