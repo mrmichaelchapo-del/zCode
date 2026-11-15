@@ -1,4 +1,3 @@
 # X/Y coordinates
-
->[!GOOD]
-X/Y coordinates are COMPLETE AND works!
+> [!TIP]
+> X/Y coordinates are COMPLETE and work!
