@@ -39,4 +39,4 @@ Zcode is actively being worked on. More information about setting up and contrib
 
 # 📄 License
 
-GPLv3
+EPLv2
